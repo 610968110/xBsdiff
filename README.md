@@ -2,7 +2,9 @@
 增量更新框架，感谢鸿翔大神的博客
 
 
-1、添加权限： <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+1、添加权限： 
+
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
   6.0及以上需要动态添加权限：BsPatch.checkWritePermission(this);
   
