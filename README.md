@@ -5,7 +5,7 @@
 
 maven {url "https://raw.githubusercontent.com/610968110/xBsdiff/master"}
 
-compile 'com.mavent-liboxin:xBsdiff:1.0'
+compile 'com.maven-liboxin:xBsdiff:1.0'
 
 
 1、添加权限： 
