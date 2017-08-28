@@ -1,6 +1,12 @@
 # xBsdiff
 增量更新框架，感谢鸿翔大神的博客
 
+引用：
+
+maven {url "https://raw.githubusercontent.com/610968110/xBsdiff/master"}
+
+compile 'com.mavent-liboxin:xBsdiff:1.0'
+
 
 1、添加权限： 
 
