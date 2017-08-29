@@ -7,6 +7,32 @@ maven {url "https://raw.githubusercontent.com/610968110/xBsdiff/master"}
 
 compile 'com.maven-liboxin:xBsdiff:1.0'
 
+在项目的build里添加：
+
+ext {
+
+    //版本需要21及以上
+
+    compileSdkVersion = 21
+    
+    buildToolsVersion = "25.0.0"
+    
+    minSdkVersion = 21
+    
+    targetSdkVersion = 21
+    
+    }
+    
+    
+ app及model的build里添加：
+    
+ compileSdkVersion rootProject.ext.compileSdkVersion
+ 
+ buildToolsVersion rootProject.ext.buildToolsVersion
+    
+ minSdkVersion rootProject.ext.minSdkVersion
+ 
+ targetSdkVersion rootProject.ext.targetSdkVersion
 
 1、添加权限： 
 
