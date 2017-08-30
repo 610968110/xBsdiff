@@ -11,13 +11,13 @@ compile 'com.maven-liboxin:xBsdiff:1.0'
 
 ext {
 
-    //版本需要21及以上
+    //版本需要21
 
     compileSdkVersion = 21
     
     buildToolsVersion = "25.0.0"
     
-    minSdkVersion = 21
+    minSdkVersion = 19
     
     targetSdkVersion = 21
     
